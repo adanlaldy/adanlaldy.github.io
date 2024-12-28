@@ -8,7 +8,7 @@
 </head>
 <body class="bg-black text-white font-spartan">
     <header>
-        <nav class="w-5/6 mx-auto flex px-14 py-4">
+        <nav class="w-5/6 mx-auto flex px-6 py-4">
             <div class="w-2/3">
                 <a href="index.html" class="text-xl underline underline-offset-8 decoration-0 decoration-wavy decoration-red-500">Portfolio</a>
             </div>
@@ -18,7 +18,7 @@
                         <a href="blog.html">Blog</a>
                     </li>
                     <li>
-                        <a href="context.html">Contexte professionnel</a>
+                        <a href="context.html">Contexte pro</a>
                     </li>
                     <li class="hidden md:block">
                         <a href="contact.html">Me contacter</a>
@@ -28,23 +28,20 @@
         </nav>
     </header>
     <main>
-        <section class="w-5/6 mx-auto flex items-center bg-zinc-900 px-14 py-8">
-            <div class="w-1/2">
+        <section class="w-5/6 mx-auto flex flex-row items-center bg-zinc-900 px-6 py-8">
+            <div class="w-full md:w-3/4">
                 <p class="text-lg my-3">Bonjour, je m'appelle</p>
                 <p class="text-3xl font-medium my-3">Adan LALDY-MAQUIHA</p>
                 <p class="italic my-3">- Étudiant en Bachelor 3 informatique option développement à Ynov Toulouse, je suis à la <span class="underline underline-offset-4 decoration-wavy decoration-red-500">recherche d'une alternance en développement d'applications mobile ou web.</span></p>
-                <form class="hidden md:block" action="contact.html" method="get">
+                <form class="flex flex-col md:flex-row items-center" action="contact.html" method="get">
                     <button class="text-lg bg-red-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300" type="submit">Me contacter</button>
                 </form>
             </div>
-            <div class="w-1/2 flex flex-col md:flex-row items-center justify-end">
-                <img class="hidden md:block size-32 md:size-auto rounded-lg" src="/src/assets/images/moi.png">
-                <form class="md:hidden pt-1" action="contact.html" method="get">
-                    <button class="text-lg bg-red-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300" type="submit">Me contacter</button>
-                </form>
+            <div class="hidden md:block lg:flex md:w-1/4 justify-end">
+                <img class="size-32 md:size-auto rounded-lg" src="/src/assets/images/moi.png">
             </div>
         </section>
-        <section class="w-5/6 mx-auto flex bg-zinc-800 px-14 py-8">
+        <section class="w-5/6 mx-auto flex flex-row bg-zinc-800 px-6 py-8">
             <div class="w-full md:w-4/5">
                 <p class="text-2xl underline underline-offset-8 decoration-0 decoration-wavy decoration-red-500">Qui suis-je ?</p>
                 <p><br>Étudiant en troisième année de Bachelor Informatique à Ynov Campus Toulouse, option
@@ -74,11 +71,11 @@
                 </form>
             </div>
         </section>
-        <section class="w-5/6 mx-auto flex-col items-center bg-zinc-900 px-14 py-8">
+        <section class="w-5/6 mx-auto bg-zinc-900 px-6 py-8">
             <div>
                 <p class="text-2xl underline underline-offset-8 decoration-0 decoration-wavy decoration-red-500">Mes compétences :</p>
             </div>
-            <div class="flex justify-evenly items-center pt-8">
+            <div class="flex flex-col md:flex-row justify-evenly items-center pt-8 space-y-4 md:space-y-0">
                 <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
                     <a href="https://laravel.com/" target="_blank"><img src="/src/assets/images/laravel-2.svg"></a>
                 </div>
