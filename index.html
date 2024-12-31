@@ -37,13 +37,13 @@
                 la <span class="underline underline-offset-4 decoration-wavy decoration-red-500">recherche d'une alternance en développement d'applications mobile ou web.</span>
             </p>
             <form class="flex flex-col md:flex-row items-center" action="contact.html" method="get">
-                <button class="text-lg bg-red-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
+                <button id="button1" class="text-lg bg-red-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
                         type="submit">Me contacter
                 </button>
             </form>
         </div>
         <div class="hidden md:block lg:flex md:w-1/4 justify-end">
-            <img class="size-32 md:size-auto rounded-lg" src="/src/assets/images/moi.png" alt="Adan Laldy-Maquiha">
+                <img class="size-32 md:size-auto rounded-lg" src="/src/assets/images/moi.png" alt="Adan Laldy-Maquiha">
         </div>
     </section>
     <section class="w-5/6 mx-auto flex flex-row bg-zinc-800 px-6 py-8">
@@ -73,7 +73,7 @@
             </p>
             <form class="md:hidden flex flex-col items-center pt-3"
                   action="/src/assets/images/Adan_Laldy-Maquiha_développement.pdf" method="get" target="_blank">
-                <button class="text-lg bg-red-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
+                <button id="button2.1" class="text-lg bg-red-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
                         type="submit">Visualiser mon CV
                 </button>
             </form>
@@ -81,7 +81,7 @@
         <div class="md:w-1/5 flex items-center justify-end">
             <form class="hidden md:block" action="/src/assets/images/Adan_Laldy-Maquiha_développement.pdf" method="get"
                   target="_blank">
-                <button class="bg-red-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
+                <button id="button2.2" class="bg-red-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-red-600 hover:shadow-lg transition-all duration-300"
                         type="submit">Visualiser mon CV
                 </button>
             </form>
@@ -93,26 +93,27 @@
                 compétences :</p>
         </div>
         <div class="flex flex-col md:flex-row justify-evenly items-center pt-8 space-y-4 md:space-y-0">
-            <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link1" class="w-24 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://laravel.com/" target="_blank"><img src="/src/assets/images/laravel-2.svg"></a>
             </div>
-            <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link2" class="w-24 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://www.java.com/" target="_blank"><img src="/src/assets/images/java-14.svg"></a>
             </div>
-            <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link3" class="w-24 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://www.python.org/" target="_blank"><img src="/src/assets/images/python-5.svg"></a>
             </div>
-            <div class="w-32 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link4" class="w-32 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://tailwindcss.com/" target="_blank"><img src="/src/assets/images/tailwind-css-2.svg"></a>
             </div>
-            <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link5" class="w-24 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://www.mysql.com/" target="_blank"><img src="/src/assets/images/mysql-logo-pure.svg"></a>
             </div>
-            <div class="w-24 shadow-md shadow-white/50 rounded-lg p-3">
+            <div id="link6" class="w-24 shadow-lg shadow-white/70 hover:shadow-red-700 rounded-lg p-3">
                 <a href="https://git-scm.com/" target="_blank"><img src="/src/assets/images/git-icon.svg"></a>
             </div>
         </div>
     </section>
 </main>
+<script src="src/js/animations.js"></script>
 </body>
 </html>
