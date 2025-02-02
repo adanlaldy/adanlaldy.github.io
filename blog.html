@@ -6,7 +6,7 @@
     <link href="./src/css/output.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="bg-white text-black font-spartan">
+<body class="bg-white text-black font-spartan flex flex-col min-h-screen">
 <header>
     <nav class="w-5/6 mx-auto flex px-6 py-4">
         <div class="w-2/3">
@@ -28,12 +28,12 @@
         </div>
     </nav>
 </header>
-<main>
+<main class="flex flex-col flex-grow">
     <section class="w-5/6 mx-auto bg-zinc-300 shadow-lg shadow-black/70 rounded-t-lg px-6 py-8">
         <h1 class="flex justify-center text-3xl underline underline-offset-8 decoration-0 decoration-wavy decoration-red-500">
             Articles :</h1>
     </section>
-    <section class="w-5/6 mx-auto flex flex-col gap-y-6 bg-zinc-200 shadow-lg shadow-black/70 rounded-b-lg px-6 py-8">
+    <section class="w-5/6 mx-auto flex flex-col gap-y-6 bg-zinc-200 shadow-lg shadow-black/70 rounded-b-lg px-6 py-8 h-full flex-grow">
         <a id="article2" href="bilan_article.html">
             <h2 class="text-2xl hover:underline hover:underline-offset-4 hover:decoration-0 hover:decoration-wavy hover:decoration-red-500">Bilan de mon stage au sein de l’aéroport Roland Garros</h2>
             <p>1. Mes impressions et ressentis C’est mon premier stage dans une grande entreprise en informatique...</p>
