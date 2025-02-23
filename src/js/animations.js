@@ -4,7 +4,8 @@ const links = [
     document.getElementById('link3'),
     document.getElementById('link4'),
     document.getElementById('link5'),
-    document.getElementById('link6')
+    document.getElementById('link6'),
+    document.getElementById('link7'),
 ];
 
 const buttons = [
