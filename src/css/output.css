@@ -564,6 +564,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -705,10 +710,6 @@ video {
   border-bottom-width: 2px;
 }
 
-.border-b-0 {
-  border-bottom-width: 0px;
-}
-
 .border-\[\#3a5a78\] {
   --tw-border-opacity: 1;
   border-color: rgb(58 90 120 / var(--tw-border-opacity, 1));
@@ -797,18 +798,6 @@ video {
   padding-top: 2rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
 .font-spartan {
   font-family: spartan, sans-serif;
 }
@@ -863,18 +852,6 @@ video {
   text-decoration-color: #3a5a78;
 }
 
-.decoration-red-500 {
-  text-decoration-color: #ef4444;
-}
-
-.decoration-wavy {
-  text-decoration-style: wavy;
-}
-
-.decoration-0 {
-  text-decoration-thickness: 0px;
-}
-
 .underline-offset-8 {
   text-underline-offset: 8px;
 }
@@ -906,16 +883,8 @@ video {
   transition-duration: 300ms;
 }
 
-.marker\:text-red-500 *::marker {
-  color: rgb(239 68 68 );
-}
-
 .marker\:text-\[\#3a5a78\] *::marker {
   color: rgb(58 90 120 );
-}
-
-.marker\:text-red-500::marker {
-  color: rgb(239 68 68 );
 }
 
 .marker\:text-\[\#3a5a78\]::marker {
@@ -947,11 +916,6 @@ video {
 
 .hover\:shadow-\[\#3a5a78\]:hover {
   --tw-shadow-color: #3a5a78;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:shadow-red-700:hover {
-  --tw-shadow-color: #b91c1c;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
